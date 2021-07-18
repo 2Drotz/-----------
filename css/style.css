@@ -79,6 +79,7 @@ img.background {
   font-size: 36px;
 }
 .info-text {
+  font-size: 20px;
   max-width: 450px;
   margin: 0 auto;
 }
@@ -109,8 +110,60 @@ img.background {
   color: #bbb;
   text-decoration: none;
 }
-@media (max-width: 490px) {
+@media (max-width: 768px) {
   .navbar {
+    font-size: 22px;
+    padding: 15px;
+  }
+  .title {
+    font-size: 65px;
+  }
+  .subtitle {
+    font-size: 28px;
+  }
+  .info-text {
+    font-size: 14px;
+  }
+}
+@media (max-width: 576px) {
+  .navbar {
+    font-size: 18px;
+    padding: 12px;
+  }
+  .title {
+    font-size: 42px;
+  }
+  .subtitle {
     font-size: 20px;
+  }
+  .info-text {
+    font-size: 12px;
+  }
+}
+@media (max-width: 368px) {
+  .navbar {
+    font-size: 12px;
+    padding: 2px;
+  }
+  .nav-link {
+    margin-left: 1px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 18px;
+  }
+  .info-text {
+    font-size: 8px;
+    max-width: 200px;
+  }
+  .main-footer {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+  .block {
+    max-width: 220px;
+    line-height: 1.4;
   }
 }
