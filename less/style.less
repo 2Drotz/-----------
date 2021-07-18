@@ -1,0 +1,42 @@
+@color-grey: #1f1f1f;
+@color-red: #d01257;
+@color-orange: #fda403;
+@color-green: #00ad7c;
+
+//font-family: "Monserat", sans-serif;
+//font-family: 'Roboto', sans-serif;
+/*
+	lg:1200px;
+	md: 992px;
+	sm: 767px;
+	xs: 576px;
+*/
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.375;
+	color: @color-grey;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+.no-scroll {
+	overflow: hidden;
+}
+
+@media (max-width: 368px) {
+	.section-top__title {
+		font-size: 34px;
+	}
+	.product__model{
+		padding: 13px 25px;
+	}
+	.product__price{
+		font-size: 18px;
+	}
+}
