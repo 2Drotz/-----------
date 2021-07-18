@@ -40,6 +40,10 @@ img.background {
   left: 0;
   z-index: -999;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -138,15 +142,13 @@ img.background {
   }
   .info-text {
     font-size: 12px;
+    max-width: 300px;
   }
 }
 @media (max-width: 368px) {
   .navbar {
     font-size: 10px;
-    padding: 2px;
-  }
-  .nav-link {
-    margin-left: 1px;
+    padding: 3px;
   }
   .title {
     font-size: 30px;
@@ -156,7 +158,7 @@ img.background {
   }
   .info-text {
     font-size: 8px;
-    max-width: 200px;
+    max-width: 160px;
   }
   .main-footer {
     font-size: 10px;
