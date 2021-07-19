@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 body {
   background-color: #fff;
@@ -28,10 +29,17 @@ a {
   margin: 0 auto;
 }
 .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
-  align-items: baseline;
-  justify-content: space-between;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   font-size: 26px;
   padding: 20px;
   height: 160px;
@@ -41,6 +49,7 @@ a {
   font-size: 34px;
   text-transform: uppercase;
   font-weight: 700;
+  -webkit-transition: all .3s;
   transition: all .3s;
 }
 .nav-title:hover {
@@ -52,6 +61,7 @@ a {
 }
 .nav-link {
   margin-left: 15px;
+  -webkit-transition: all .3s;
   transition: all .3s;
   display: inline-block;
 }
@@ -65,11 +75,14 @@ a {
 .main-footer {
   font-size: 14px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   position: absolute;
   bottom: 0;
   left: 50%;
-  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
   padding: 20px 30px;
 }
 .block {
@@ -79,6 +92,7 @@ a {
 .footer-link {
   margin: 0 4px;
   border-bottom: 1px solid;
+  -webkit-transition: all .3s;
   transition: all .3s;
 }
 .footer-link:hover {
@@ -103,8 +117,12 @@ a {
   .nav {
     font-size: 14px;
     padding: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     position: relative;
   }
   .nav-title {
@@ -126,8 +144,12 @@ a {
   .nav {
     font-size: 14px;
     padding: 8px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .nav-title {
     font-size: 24px;
