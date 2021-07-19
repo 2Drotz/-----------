@@ -88,6 +88,34 @@ a {
   max-width: 1200px;
   height: auto;
 }
+.text {
+  margin: 20px 50px;
+  font-family: 'Bitter', serif;
+}
+.bigtext {
+  font-size: 24px;
+}
+.smalltext {
+  font-size: 16px;
+}
+.img-block {
+  margin: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.img-block_container {
+  display: inline-block;
+  width: 580px;
+  height: 100%;
+}
+.img-small {
+  height: 100%;
+  width: 100%;
+}
 .main-footer {
   font-size: 16px;
   width: 100%;
