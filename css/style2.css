@@ -86,9 +86,9 @@ a {
   height: auto;
 }
 .text {
-  margin: 30px auto;
+  margin: 45px auto;
   text-align: justify;
-  width: 1000px;
+  width: 900px;
   letter-spacing: 1.1px;
   font-family: 'Bitter', serif;
 }
@@ -151,6 +151,24 @@ a {
     border-bottom: 2px solid #000;
     font-size: 22px;
   }
+  .content-title {
+    font-size: 54px;
+    font-weight: 500;
+  }
+  .content-subtitle {
+    font-size: 36px;
+    font-weight: 100;
+  }
+  .text {
+    margin: 40px auto;
+    width: 550px;
+  }
+  .bigtext {
+    font-size: 24px;
+  }
+  .smalltext {
+    font-size: 16px;
+  }
 }
 @media (max-width: 576px) {
   .nav {
@@ -178,6 +196,24 @@ a {
     width: 100%;
     line-height: 1.4;
   }
+  .content-title {
+    font-size: 46px;
+    font-weight: 500;
+  }
+  .content-subtitle {
+    font-size: 28px;
+    font-weight: 100;
+  }
+  .text {
+    margin: 30px auto;
+    width: 370px;
+  }
+  .bigtext {
+    font-size: 20px;
+  }
+  .smalltext {
+    font-size: 14px;
+  }
 }
 @media (max-width: 368px) {
   .nav {
@@ -197,6 +233,14 @@ a {
     border-bottom: 2px solid #000;
     font-size: 16px;
   }
+  .content-title {
+    font-size: 36px;
+    font-weight: 500;
+  }
+  .content-subtitle {
+    font-size: 22px;
+    font-weight: 100;
+  }
   .main-footer {
     font-size: 10px;
     padding: 5px 10px;
@@ -205,5 +249,15 @@ a {
     text-align: center;
     width: 100%;
     line-height: 1.4;
+  }
+  .text {
+    margin: 20px auto;
+    width: 250px;
+  }
+  .bigtext {
+    font-size: 18px;
+  }
+  .smalltext {
+    font-size: 12px;
   }
 }
