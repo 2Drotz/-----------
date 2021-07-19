@@ -51,13 +51,14 @@ img.background {
 	max-width: 1200px;
 	margin: 0 auto;
 }
-.navbar {
+.nav {
 	display: flex;
 	justify-content: center;
 	font-size: 26px;
 	padding: 20px;
+	position: relative;
 }
-.navbar-main {
+.nav-main {
 	text-transform: uppercase;
 	font-weight: 700;
 }
@@ -74,23 +75,29 @@ img.background {
 	width: 100%;
 	height: 100%;
 	text-align: center;
-	padding-top: 75px;
+	padding-top: 65px;
 }
 .title {
 	font-size: 92px;
 	text-transform: uppercase;
 	line-height: 1;
+	font-family: 'Lato', sans-serif;
+	font-weight: 900;
+	margin: 10px;
 }
 .subtitle{
 	font-size: 36px;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 4px;
+	font-weight: 700;
 }
 .info-text {
 	font-size: 20px;
-	max-width: 450px;
+	max-width: 500px;
 	margin: 0 auto;
 }
 .main-footer {
-	font-size: 14px;
+	font-size: 16px;
 	width: 100%;
 	display: flex;
 	position: absolute;
@@ -115,8 +122,12 @@ img.background {
 .info-footer {
 
 }
+
+
+// другие страницы
+
 @media (max-width: 768px) {
-	.navbar {
+	.nav {
 		font-size: 22px;
 		padding: 15px;
 	}
@@ -132,7 +143,7 @@ img.background {
 	}
 }
 @media (max-width: 576px) {
-	.navbar {
+	.nav {
 		font-size: 18px;
 		padding: 12px;
 	}
@@ -149,7 +160,7 @@ img.background {
 	
 }
 @media (max-width: 368px) {
-	.navbar {
+	.nav {
 		font-size: 10px;
 		padding: 8px;
 	}
