@@ -57,10 +57,10 @@ img.background {
 }
 .nav-main {
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 500;
 }
 .nav-link {
-  margin-left: 15px;
+  margin-left: 20px;
   -webkit-transition: all .3s;
   transition: all .3s;
   display: inline-block;
