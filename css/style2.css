@@ -103,7 +103,6 @@ a {
 }
 .card {
   width: calc(585px);
-  background-image: url(../img/501.jfif);
   position: relative;
   margin-bottom: 30px;
   color: #fff;
