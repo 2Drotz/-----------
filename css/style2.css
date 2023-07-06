@@ -297,15 +297,26 @@ a {
     
   }
   .menu-btn span {
-    background-color: #fff;
+    background-color: rgb(136, 255, 0);
   }
-
+  .menu-btn.active span:nth-of-type(1) {
+    display: none;
+  }
+  .menu-btn.active span:nth-of-type(2) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(45deg);  
+  }
+  .menu-btn.active span:nth-of-type(3) {
+    top: 50%;
+    transform: translate(-50%, 0%) rotate(-45deg); 
+  }
   .nav {
     font-size: 20px;
     padding: 15px;
     height: 90px;
     
   }
+
   .gamburger{
     display: block;
     position: relative;
@@ -318,7 +329,7 @@ a {
     top: 0;
     left: 0;
     width: 100%;
-    font-size: 36px;
+    font-size: 20px;
     height: 100%;
     padding: 15px;
     background: #181818;
@@ -335,8 +346,8 @@ a {
   }
 
   .nav-link.active {
-    border-bottom: 2px solid #000;
-    font-size: 22px;
+    border-bottom: 2px solid #ffffff;
+    font-size: 18px;
   }
   .content-title {
     font-size: 54px;
@@ -381,6 +392,38 @@ a {
     height: 80px;
     margin-bottom: 30px;
   }
+
+  .nav-main {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    font-size: 16px;
+    height: 100%;
+    padding: 15px;
+    background: #181818;
+    color: #fff;
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+
+  }
+  .nav-link {
+    display: block;
+    margin: 10px;
+  }
+  .nav-main.active {
+    transform: translateX(0);
+  }
+  .nav-main li {
+    list-style-type: none;
+  }
+
+  .nav-link.active {
+    border-bottom: 2px solid #ffffff;
+    font-size: 14px;
+  }
+
   .gamburger{
     position: relative;
     top: 0;
@@ -390,10 +433,7 @@ a {
     font-size: 26px;
 
   }
-  .nav-link.active {
-    border-bottom: 2px solid #000;
-    font-size: 16px;
-  }
+
   .block {
     text-align: center;
     width: 100%;
