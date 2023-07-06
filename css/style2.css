@@ -289,6 +289,12 @@ a {
   .card-wrapper {
     margin-top: 30px;
   }
+  .nav-link.active {
+    border-bottom: 2px solid #ffffff;
+  }
+  .menu-btn span {
+    background-color: rgb(136, 255, 0);
+  }
 }
 @media (max-width: 790px) {
 
@@ -296,9 +302,7 @@ a {
     display: block;
     
   }
-  .menu-btn span {
-    background-color: rgb(136, 255, 0);
-  }
+  
   .menu-btn.active span:nth-of-type(1) {
     display: none;
   }
@@ -495,7 +499,7 @@ a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #222222;
+
     transition: all 0.5s;
   }
 
@@ -506,7 +510,7 @@ a {
     font-size: 12px;
   }
   .nav-link.active {
-    border-bottom: 1px solid #000;
+    
     font-size: 14px;
   }
   .content-title {
